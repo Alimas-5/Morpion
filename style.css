@@ -1,0 +1,68 @@
+/* MORPION.HTML */
+
+#jeu 
+{
+    width: 240px;
+    height: 250px;
+    background-color: black;
+    border : 1px solid #555;
+    margin: 50px auto;
+    /* box-shadow: 3px 8px 3px #bbb; */
+    padding: 10px;
+    overflow: auto;
+    display : flex;
+    flex-wrap: wrap;
+    font-size: 60px;
+}
+
+#jeu div
+{
+    margin: auto;
+    clear: both;
+}
+
+#jeu div
+{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    float: left;
+    font-weight: bold;
+    background-color:white;
+}
+#jeuStatus
+{
+    color: white;
+    padding: 15px 10px;
+    font-size: 50px;
+}
+
+
+body
+{
+    background-color: rgb(101, 206, 60);
+    text-align: center;
+} 
+
+
+
+/* INDEX.HTML */
+
+.boutonJouer{
+    border:1px solid #000;
+    padding:5px;
+    background:#CCC;
+    width: 1000px;
+}
+    
+ 
+p {
+text-decoration: underline;
+font-size: 80px;
+}
+    
+a{
+    font-size: 50px;
+    text-decoration: none;
+}
+        
