@@ -3,10 +3,10 @@
                 var joueurs = [
                     {
                         id:'poisson',
-                        icon: '<img src="iconfinder_fish_5404332.svg" alt="fish">'
+                        icon: '<img src="images/iconfinder_fish_5404332.svg" alt="fish">'
                     }, {
                         id:'chat',
-                        icon: '<img src="iconfinder_039_026_cat_black_witch_halloween_3792014.svg" alt="fish">'
+                        icon: '<img src="images/iconfinder_039_026_cat_black_witch_halloween_3792014.svg" alt="fish">'
                     }
                 ];
                 var wins = [
