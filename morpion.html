@@ -2,17 +2,28 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
         <title>Morpion</title>
         <meta charset="UTF-8"/>
     </head>
 
     <body>
         <div id="jeu">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
             <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
         </div>
         <div id="jeuStatus"></div>
         
-        
+        <p id="txt">
+        Les règles:<br>
+        3 joueurs s'affrontent. Ils doivent remplir chacun à leur tour une case de la grille avec le symbole qui leur est attribué : chat, poisson et chien. <br>
+        Le gagnant est celui qui arrive à aligner trois symboles identiques, horizontalement, verticalement ou en diagonale. <br>
+        Il est coutume de laisser le joueur jouant "chat" d'effectuer le premier coup de la partie. </p>
+            
+            <button class="btn" id="bouton"> Cacher/revoir les règles </button>
     </body>
-    <script type="text/javascript" src="Morpion.js"></script>
-</html>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="script.js"></script>
+    
+</html> 

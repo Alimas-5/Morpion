@@ -2,20 +2,26 @@
 <html>
 <head>
     <link href="style.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 320px)" href="1280style.css" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <title>TTT par Paul et Ludo</title>
     <meta charset="UTF-8"/>  
 </head>
 
-<body>
+<body onclick='fermer()'>
 
-<p>Tic Tac Toe</p>
+<p id=titre>Tic Tac Toe</p>
+<img class="chat_position" src="images/chi.png" alt="" />
 
-<img src="images/tictac.gif" alt="" />
-<br/><br/><br/><br/>
+<img class="poisson_position" src="images/poisson_clown.png" alt="" />
+
+<img class="tic_tac" src="images/tictac.gif" alt="" />
+
+ <br/><br/><br/><br/> 
 
 <a href="morpion.html" class="boutonJouer">Jouer</a>
 
-
+<!-- <a href="javascript:window.opener='x';window.close();" onclick="fermer" class="boutonJouer">Quitter</a> -->
 </body>
 
-</html>
+</html> 
